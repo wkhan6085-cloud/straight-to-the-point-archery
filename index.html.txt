@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Straight To The Point Archery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Precision archery coaching, equipment and classes." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Straight To The Point</a>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#classes">Classes</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cta">Book a Session</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1>Precision technique. Faster progress.</h1>
+        <p>One-on-one coaching, group classes, and gear reviews for archers who want results.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#classes">View Classes</a>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / SERVICES -->
+    <section id="features" class="features container">
+      <article class="feature">
+        <h3>Private Coaching</h3>
+        <p>Tailored lessons for all skill levels — technique, form, and mindset.</p>
+      </article>
+      <article class="feature">
+        <h3>Group Workshops</h3>
+        <p>Weekend workshops for drills, competitions practice and strength conditioning.</p>
+      </article>
+      <article class="feature">
+        <h3>Equipment Guidance</h3>
+        <p>Gear recommendations and tuning so your setup matches your goals.</p>
+      </article>
+    </section>
+
+    <!-- GALLERY / PRODUCTS -->
+    <section id="gallery" class="gallery container">
+      <h2>Gallery & Gear</h2>
+      <div class="grid">
+        <div class="card"><img src="assets/images/archer1.jpg" alt="Archer 1"/><p>Form demo</p></div>
+        <div class="card"><img src="assets/images/archery-gear.jpg" alt="Equipment"/><p>Gear setup</p></div>
+        <div class="card"><img src="assets/images/targets.jpg" alt="Targets"/><p>Target practice</p></div>
+      </div>
+    </section>
+
+    <!-- ABOUT / COACH -->
+    <section id="about" class="about container">
+      <h2>About the Coach</h2>
+      <p>Coach [Name] has X years of experience and a practical, no-fluff approach to improvement.</p>
+    </section>
+
+    <!-- CLASSES / EVENTS -->
+    <section id="classes" class="classes container">
+      <h2>Classes & Schedule</h2>
+      <ul class="class-list">
+        <li><strong>Intro to Target</strong> — Saturdays 9:00AM (Beginner)</li>
+        <li><strong>Technique Clinic</strong> — Wednesdays 6:00PM (Intermediate)</li>
+        <li><strong>Competition Prep</strong> — Monthly intensive</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT / CTA -->
+    <section id="contact" class="contact container">
+      <h2>Contact & Bookings</h2>
+      <form id="contactForm" class="contact-form">
+        <label><span>Name</span><input type="text" name="name" required></label>
+        <label><span>Email</span><input type="email" name="email" required></label>
+        <label><span>Message</span><textarea name="message" rows="4" required></textarea></label>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Straight To The Point Archery — Built with focus.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

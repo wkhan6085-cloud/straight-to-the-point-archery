@@ -1,9 +1,9 @@
-// small helpers
-document.getElementById('year').textContent = new Date().getFullYear();
+// Auto-update footer year
+document.getElementById("year").textContent = new Date().getFullYear();
 
-// basic contact form handler (demo only — replace with real backend or email service)
-document.getElementById('contactForm')?.addEventListener('submit', function(e){
-  e.preventDefault();
-  alert('Thanks! Your message was received (demo). Replace this with real submission logic.');
-  this.reset();
+// Contact form demo (replace with backend later)
+document.getElementById("contactForm")?.addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Your message was sent! (Demo only)");
+    this.reset();
 });
